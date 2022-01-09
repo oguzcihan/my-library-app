@@ -1,0 +1,15 @@
+D:\DotnetWorkspace\NorthWindBackend\DataAccess\obj\Debug\netstandard2.1\DataAccess.csproj.AssemblyReference.cache
+D:\DotnetWorkspace\NorthWindBackend\DataAccess\obj\Debug\netstandard2.1\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\DotnetWorkspace\NorthWindBackend\DataAccess\obj\Debug\netstandard2.1\DataAccess.AssemblyInfoInputs.cache
+D:\DotnetWorkspace\NorthWindBackend\DataAccess\obj\Debug\netstandard2.1\DataAccess.AssemblyInfo.cs
+D:\DotnetWorkspace\NorthWindBackend\DataAccess\obj\Debug\netstandard2.1\DataAccess.csproj.CoreCompileInputs.cache
+D:\DotnetWorkspace\NorthWindBackend\DataAccess\bin\Debug\netstandard2.1\DataAccess.deps.json
+D:\DotnetWorkspace\NorthWindBackend\DataAccess\bin\Debug\netstandard2.1\DataAccess.dll
+D:\DotnetWorkspace\NorthWindBackend\DataAccess\bin\Debug\netstandard2.1\DataAccess.pdb
+D:\DotnetWorkspace\NorthWindBackend\DataAccess\bin\Debug\netstandard2.1\Core.dll
+D:\DotnetWorkspace\NorthWindBackend\DataAccess\bin\Debug\netstandard2.1\Entities.dll
+D:\DotnetWorkspace\NorthWindBackend\DataAccess\bin\Debug\netstandard2.1\Core.pdb
+D:\DotnetWorkspace\NorthWindBackend\DataAccess\bin\Debug\netstandard2.1\Entities.pdb
+D:\DotnetWorkspace\NorthWindBackend\DataAccess\obj\Debug\netstandard2.1\DataAccess.csproj.CopyComplete
+D:\DotnetWorkspace\NorthWindBackend\DataAccess\obj\Debug\netstandard2.1\DataAccess.dll
+D:\DotnetWorkspace\NorthWindBackend\DataAccess\obj\Debug\netstandard2.1\DataAccess.pdb

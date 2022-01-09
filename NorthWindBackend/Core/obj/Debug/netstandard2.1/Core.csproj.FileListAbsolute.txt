@@ -1,0 +1,10 @@
+D:\DotnetWorkspace\NorthWindBackend\Core\obj\Debug\netstandard2.1\Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\DotnetWorkspace\NorthWindBackend\Core\obj\Debug\netstandard2.1\Core.AssemblyInfoInputs.cache
+D:\DotnetWorkspace\NorthWindBackend\Core\obj\Debug\netstandard2.1\Core.AssemblyInfo.cs
+D:\DotnetWorkspace\NorthWindBackend\Core\obj\Debug\netstandard2.1\Core.csproj.CoreCompileInputs.cache
+D:\DotnetWorkspace\NorthWindBackend\Core\bin\Debug\netstandard2.1\Core.deps.json
+D:\DotnetWorkspace\NorthWindBackend\Core\bin\Debug\netstandard2.1\Core.dll
+D:\DotnetWorkspace\NorthWindBackend\Core\bin\Debug\netstandard2.1\Core.pdb
+D:\DotnetWorkspace\NorthWindBackend\Core\obj\Debug\netstandard2.1\Core.dll
+D:\DotnetWorkspace\NorthWindBackend\Core\obj\Debug\netstandard2.1\Core.pdb
+D:\DotnetWorkspace\NorthWindBackend\Core\obj\Debug\netstandard2.1\Core.csproj.AssemblyReference.cache
