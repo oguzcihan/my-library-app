@@ -1,7 +1,0 @@
-git config --list
-git config --global user.name "oğuz cihan"
-git config --global user.email "oguzcihan12@gmail.com"
-
-git checkout -b "work" //yeni branch oluşturur
-git checkout work //branchler arası geçiş
-git checkout main
