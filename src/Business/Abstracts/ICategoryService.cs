@@ -3,12 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Core.DataAccess;
+using Core.Utilities.Result;
 using Entities.Concretes;
 
-namespace DataAccess.Abstracts
+namespace Business.Abstracts
 {
-    public interface IBookDal:IEntityRepository<Book>
+    public interface ICategoryService
     {
+        IDataResult<List<Category>> GetList();
     }
 }

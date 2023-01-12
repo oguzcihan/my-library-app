@@ -10,6 +10,6 @@ namespace Entities.Concretes
         public string Publisher { get; set; }
         public bool Read { get; set; }
 
-        public virtual ICollection<Category> Categories { get; set; }
+        public int CategoryId { get; set; }
     }
 }
