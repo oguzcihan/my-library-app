@@ -13,43 +13,43 @@ namespace Business.Concretes
 {
     public class BookManager : IBookService
     {
-        private IBookDal _bookDal;
+        private IBookRepository _bookRepository;
 
-        public BookManager(IBookDal bookDal)
+        public BookManager(IBookRepository bookRepository)
         {
-            _bookDal = bookDal;
+            _bookRepository = bookRepository;
         }
 
         public IDataResult<Book> GetById(int bookId)
         {
-            return new SuccessDataResult<Book>(_bookDal.Get(b => b.Id == bookId));
+            return new SuccessDataResult<Book>(_bookRepository.Get(b => b.Id == bookId));
         }
 
         public IDataResult<List<Book>> GetList()
         {
-            return new SuccessDataResult<List<Book>>(_bookDal.GetList().ToList());
+            return new SuccessDataResult<List<Book>>(_bookRepository.GetList().ToList());
         }
 
         public IDataResult<List<Book>> GetListByCategory(int categoryId)
         {
-            return new SuccessDataResult<List<Book>>(_bookDal.GetList(b => b.CategoryId == categoryId).ToList());
+            return new SuccessDataResult<List<Book>>(_bookRepository.GetList(b => b.CategoryId == categoryId).ToList());
         }
 
         public IResult Add(Book book)
         {
-            _bookDal.Add(book);
+            _bookRepository.Add(book);
             return new SuccessResult(Messages.BookAdded);
         }
 
         public IResult Update(Book book)
         {
-            _bookDal.Update(book);
+            _bookRepository.Update(book);
             return new SuccessResult(Messages.BookUpdated);
         }
 
         public IResult Delete(Book book)
         {
-            _bookDal.Delete(book);
+            _bookRepository.Delete(book);
             return new SuccessResult(Messages.BookDeleted);
         }
     }

@@ -3,7 +3,7 @@ using Autofac.Extensions.DependencyInjection;
 using Business.DependencyResolvers.Autofac;
 using Core.Utilities.Security.Encryption;
 using Core.Utilities.Security.Jwt;
-using DataAccess.Concretes.EntityFramework.Context;
+using DataAccess.Context;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
@@ -17,11 +17,11 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-//DB connection
-//builder.Services.AddDbContext<MyLibraryContext>(options =>
-//{
-//    options.UseNpgsql(builder.Configuration.GetConnectionString("MyLibraryConnectionString"));
-//});
+// DB connection
+builder.Services.AddDbContext<MyLibraryDbContext>(options =>
+{
+    options.UseNpgsql(builder.Configuration.GetConnectionString("MyLibraryConnectionString"));
+});
 
 //Autofac plugin
 builder.Host.UseServiceProviderFactory(new AutofacServiceProviderFactory())

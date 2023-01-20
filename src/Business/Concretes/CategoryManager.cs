@@ -12,16 +12,16 @@ namespace Business.Concretes
 {
     public class CategoryManager : ICategoryService
     {
-        private readonly ICategoryDal _categoryDal;
+        private readonly ICategoryRepository _categoryRepository;
 
-        public CategoryManager(ICategoryDal categoryDal)
+        public CategoryManager(ICategoryRepository categoryRepository)
         {
-            _categoryDal = categoryDal;
+            _categoryRepository = categoryRepository;
         }
 
         public IDataResult<List<Category>> GetList()
         {
-            return new SuccessDataResult<List<Category>>(_categoryDal.GetList().ToList());
+            return new SuccessDataResult<List<Category>>(_categoryRepository.GetList().ToList());
         }
     }
 }

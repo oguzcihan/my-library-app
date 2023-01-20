@@ -8,6 +8,7 @@ using Business.Abstracts;
 using Business.Concretes;
 using Core.Utilities.Security.Jwt;
 using DataAccess.Abstracts;
+using DataAccess.Concretes;
 using DataAccess.Concretes.EntityFramework;
 
 namespace Business.DependencyResolvers.Autofac
@@ -21,15 +22,15 @@ namespace Business.DependencyResolvers.Autofac
         {
             //Book
             builder.RegisterType<BookManager>().As<IBookService>();
-            builder.RegisterType<BookDal>().As<IBookDal>();
+            builder.RegisterType<BookRepository>().As<IBookRepository>();
 
             //Category
             builder.RegisterType<CategoryManager>().As<ICategoryService>();
-            builder.RegisterType<CategoryDal>().As<ICategoryDal>();
+            builder.RegisterType<CategoryRepository>().As<ICategoryRepository>();
 
             //User
             builder.RegisterType<UserManager>().As<IUserService>();
-            builder.RegisterType<UserDal>().As<IUserDal>();
+            builder.RegisterType<UserRepository>().As<IUserRepository>();
 
             //Authentication
             builder.RegisterType<AuthManager>().As<IAuthService>();
